@@ -15,7 +15,8 @@ btnNo.addEventListener('mouseover', () => {
     btnNo.style.top = `${randomY}px`;
 });
 
-// Adiciona um evento ao botão "Sim" para exibir uma mensagem
 btnYes.addEventListener('click', () => {
-    alert('Ótimo! Te esperamos lá!');
+    const imgElement = document.createElement('img');  // Cria um elemento de imagem
+    imgElement.src = 'https://raw.githubusercontent.com/dev-brunoliveira/ConfraNano/refs/heads/main/8f630429dbc438d28d91ce4f585ae512.gif';  // Substitua 'URL_DA_IMAGEM' pelo link da sua imagem
+    document.body.appendChild(imgElement);  // Adiciona a imagem ao corpo da página
 });
